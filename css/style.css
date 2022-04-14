@@ -169,3 +169,8 @@ html{
  }
 
 
+@media (min-width: 1100px){
+    #resume-body {
+        font-size: 15px;
+    }
+}
