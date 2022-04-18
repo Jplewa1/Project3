@@ -171,10 +171,20 @@ html{
 
 @media (min-width: 1100px){
     #resume-body {
-        font-size: 15px;
-        text-align: center;
-        color: black;
-        font-family: 'Times New Roman', Times, serif;
-        font: bold;
+      font-size: 15px;
+      text-align: center;
+      color: black;
+      font-family: 'Times New Roman', Times, serif;
+      font: bold;
+    }
+}
+
+@media (min_width: 1100px){
+    #resume-h1 {
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      color: black;
+      font: bold;
     }
 }
