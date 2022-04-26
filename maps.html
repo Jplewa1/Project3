@@ -1,38 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Google Maps</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <script src="js/site.js"></script>
-</head>
-
-<body id="resume-body">
-    <nav id="main-navbar">
-      <div id="navbar-container">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="soccerprofile.html">Soccer Profile</a></li>
-          <li><a href="chickensandwich.html">The Battle of the Chicken Sandwiches</a></li>
-          <li><a href="maps.html">Google Maps</a></li>
-        </ul>
-      </div>    
-    </nav>
-    <section>
-        <div id="map">
-          <script>
-            var map;
-            function initMap() {
-            map = new google.maps.Map(document.getElementById('map'), {
-              center: {lat: 41.834683, lng: -87.625958},
-              zoom: 16
-            });
-            }
-          </script>
-          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDo0-MWUTmb3VfglvJQ99_kmwWvWFOgnXc&callback=initMap"
-          async defer></script>
-        </div>
-    </section>
-</body>
+    <head>
+      <meta charset="UTF-8">
+      <title>Simple Map</title>
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  
+      <link rel="stylesheet" type="text/css" href="./style.css" />
+      <script type="module" src="js/site.js"></script>
+    </head>
+    <body>
+      <nav id="main-navbar">
+        <div id="navbar-container">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="soccerprofile.html">Soccer Profile</a></li>
+            <li><a href="chickensandwich.html">The Battle of the Chicken Sandwiches</a></li>
+            <li><a href="maps.html">Google Maps</a></li>
+          </ul>
+        </div>    
+      </nav>
+      <div id="map"></div>
+      <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap&v=weekly"
+        defer
+      ></script>
+    </body>
+  </html>
