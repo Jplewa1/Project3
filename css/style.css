@@ -104,8 +104,9 @@ html{
      color: crimson;
      border-style: solid;
      border-width: 2px;
-     border-color: white;
+     border-color: black;
      border-radius: 50px;
+     background-color: white;
  }
 
  #soccerprofile-body ul li{
