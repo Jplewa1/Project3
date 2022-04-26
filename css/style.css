@@ -193,3 +193,10 @@ html{
     height: 100%;
   }
   
+  html,
+  body {
+    height: 100%;
+    margin: 100px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
