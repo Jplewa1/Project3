@@ -12,6 +12,7 @@ function initMap() {
     const marker = new google.maps.Marker({
       position: chicago,
       map: map,
+      icon: icon,
     });
   }
   
