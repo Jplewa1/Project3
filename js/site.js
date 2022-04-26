@@ -3,7 +3,7 @@ function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 16,
       center: chicago,
-      mapTypeId: 'satellite'
+      mapTypeId: 'terrain'
     });
     const marker = new google.maps.Marker({
       position: chicago,
